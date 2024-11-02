@@ -143,6 +143,8 @@ To connect to your instance using the Amazon EC2 console:
 
 8. Choose Connect to open a terminal window.
 
+Now, you have successfully connected EC2 instance using the Amazon EC2 console.
+
 ![13](https://github.com/user-attachments/assets/d04a67b7-67fe-4b4a-b64c-56285aa472f9)
 
 
@@ -176,6 +178,9 @@ ssh -i key-pair-name.pem ec2-user@YOUR-PUBLIC-DNS-NAME
 ![15](https://github.com/user-attachments/assets/53862ab3-f9e6-42c4-8dd0-4c2a4ce45ac4)
 
 
+Now, you have successfully connected EC2 instance using your own key and SSH client
+
+![16](https://github.com/user-attachments/assets/620998ba-d6f9-4fc9-acb7-1ed1eb3cfcc9)
 
 
 
