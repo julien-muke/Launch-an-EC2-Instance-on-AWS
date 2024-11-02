@@ -181,6 +181,26 @@ Now, you have successfully connected EC2 instance using your own key and SSH cli
 ![16](https://github.com/user-attachments/assets/620998ba-d6f9-4fc9-acb7-1ed1eb3cfcc9)
 
 
+## Step 3: Clean up your instance
+
+After you've finished with the instance that you created for this tutorial, you should clean up by terminating the instance.
+
+⚠️ Important: Terminating an instance effectively deletes it; you can't reconnect to an instance after you've terminated it.
+
+You'll stop incurring charges for that instance or usage that counts against your Free Tier limits as soon as the instance status changes to shutting down or terminated. To keep your instance for later, but not incur charges or usage that counts against your Free Tier limits, you can stop the instance now and then start it again later.
+
+**To terminate your instance:**
+
+1. In the navigation pane, choose Instances. In the list of instances, select the instance.
+2. Choose Instance state, Terminate instance.
+
+![17](https://github.com/user-attachments/assets/01be2a46-0a03-479b-b42b-e9c73b4225eb)
 
 
+3. Choose Terminate when prompted for confirmation.
+
+![18](https://github.com/user-attachments/assets/c5ba1cf4-795a-428a-94ff-1b587300fbe3)
+
+
+Amazon EC2 shuts down and terminates your instance. After your instance is terminated, it remains visible on the console for a short while, and then the entry is automatically deleted. You cannot remove the terminated instance from the console display yourself.
 
