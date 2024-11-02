@@ -71,7 +71,8 @@ To launch an instance:
 
 ![2](https://github.com/user-attachments/assets/71299dde-cb7c-4b5a-9919-d515770e0ed0)
 
-3. Under Name and tags, for Name, enter a descriptive name for your instance.
+3. Under Name and tags, for Name, enter a descriptive name for your instance, i will name it `MyFisrtInstance`.
 
+![3](https://github.com/user-attachments/assets/0af5a012-104f-4edd-984e-7837a2ab4cf3)
 
 
