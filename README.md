@@ -130,12 +130,21 @@ To connect to your instance using the Amazon EC2 console:
 
 1. Open the Amazon EC2 console at https://console.aws.amazon.com/ec2/.
 2. In the navigation pane, choose Instances.
-3. Select the instance and choose Connect.
+3. Select the instance `MyFirstInstance` and choose Connect.
+
+![11](https://github.com/user-attachments/assets/70172c4c-95e1-4fa8-a624-ba9747720c1d)
+
 4. Choose the EC2 Instance Connect tab.
 5. For Connection type, choose Connect using EC2 Instance Connect.
 6. If there is a choice, select the IP address to connect to. Otherwise, the IP address is selected automatically.
 7. For Username, verify the username.
+
+![12](https://github.com/user-attachments/assets/2e51b13c-a219-47cb-80cc-8d6785533a92)
+
 8. Choose Connect to open a terminal window.
+
+![13](https://github.com/user-attachments/assets/d04a67b7-67fe-4b4a-b64c-56285aa472f9)
+
 
 ## Connect using Linux instances
 
