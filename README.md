@@ -119,6 +119,23 @@ To launch an instance:
 
 The procedure that you use depends on the operating system of the instance. If you can't connect to your instance, see [Troubleshoot issues connecting to your Amazon EC2 Linux instance](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/TroubleshootingInstancesConnecting.html) for assistance.
 
+## Connect using the Amazon EC2 console
+
+You can connect to an instance using EC2 Instance Connect through the Amazon EC2 console. EC2 Instance Connect handles the permissions.
+
+**Requirement:** To connect using the Amazon EC2 console, the instance must have a public IPv4 or public IPv6 address. If the instance has only a private IPv4 address, you can connect using the [ec2-instance-connect AWS CLI commands](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-instance-connect-methods.html#connect-linux-inst-eic-cli-ssh).
+
+
+To connect to your instance using the Amazon EC2 console:
+
+1. Open the Amazon EC2 console at https://console.aws.amazon.com/ec2/.
+2. In the navigation pane, choose Instances.
+3. Select the instance and choose Connect.
+4. Choose the EC2 Instance Connect tab.
+5. For Connection type, choose Connect using EC2 Instance Connect.
+6. If there is a choice, select the IP address to connect to. Otherwise, the IP address is selected automatically.
+7. For Username, verify the username.
+8. Choose Connect to open a terminal window.
 
 ## Connect using Linux instances
 
