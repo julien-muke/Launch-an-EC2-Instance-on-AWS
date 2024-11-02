@@ -34,14 +34,7 @@ like these step-by-step in a beginner-friendly manner!
 
 ## <a name="introduction">🤖 Introduction</a>
 
-Xora is a Modern UI/UX SaaS website developed using React.js and Tailwind CSS that exemplifies modern UI/UX principles.
-Its sleek design, seamless animations, and overall user experience set a high standard, serving as a reference or
-inspiration for future modern applications or websites in general.
-
-If you're getting started and need assistance or face any bugs, join our active Discord community with over **34k+**
-members. It's a place where people help each other out.
-
-<a href="https://discord.com/invite/n6EdbFJ" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/618f4872-1e10-42da-8213-1d69e486d02e" /></a>
+In this beginner-friendly tutorial, we'll walk you through the process of launching your very first EC2 instance on AWS. Whether you're new to cloud computing or looking to sharpen your AWS skills, this step-by-step guide covers the complete step-by-step guide. By the end of this video, you'll be ready to deploy and manage virtual servers with ease!
 
 ## <a name="tech-stack">⚙️ Tech Stack</a>
 
