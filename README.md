@@ -59,5 +59,19 @@ Make sure you have the following:
 
 - [Create an AWS account](https://aws.amazon.com/)
 - Install OpenSSH on [Window](https://learn.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse?tabs=gui&pivots=windows-server-2025) or [Ubuntu](https://hostman.com/tutorials/how-to-install-and-configure-ssh-on-ubuntu-22-04/)
-- [npm](https://www.npmjs.com/) (Node Package Manager)
+
+## Step 1: Launch an instance
+
+You can launch an EC2 instance using the AWS Management Console as described in the following procedure. This tutorial is intended to help you quickly launch your first instance, so it doesn't cover all possible options.
+
+To launch an instance:
+
+1. Open the Amazon EC2 console at https://console.aws.amazon.com/ec2/.
+2. From the EC2 console dashboard, in the Launch instance pane, choose Launch instance.
+
+![2](https://github.com/user-attachments/assets/71299dde-cb7c-4b5a-9919-d515770e0ed0)
+
+3. Under Name and tags, for Name, enter a descriptive name for your instance.
+
+
 
