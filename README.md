@@ -146,20 +146,38 @@ To connect to your instance using the Amazon EC2 console:
 ![13](https://github.com/user-attachments/assets/d04a67b7-67fe-4b4a-b64c-56285aa472f9)
 
 
-## Connect using Linux instances
+## Connect using your own key and SSH client
 
-You can connect to your Linux instance using any SSH client. If you are running Windows on your computer, open a terminal and run the ssh command to verify that you have an SSH client installed. If the command is not found, [install OpenSSH for Windows](https://learn.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse?tabs=gui#install-openssh-for-windows).
+You can use your own SSH key and connect to your instance from the SSH client of your choice while using the EC2 Instance Connect API. This enables you to benefit from the EC2 Instance Connect capability to push a public key to the instance. This connection method works for instances with public and private IP addresses.
 
-To connect to your instance using SSH:
+To connect to your instance using your own key and any SSH client:
 
 1. Open the Amazon EC2 console at https://console.aws.amazon.com/ec2/.
 2. In the navigation pane, choose Instances.
 3. Select the instance and then choose Connect.
 4. On the Connect to instance page, choose the SSH client tab.
 5. (Optional) If you created a key pair when you launched the instance and downloaded the private key (.pem file) to a computer running Linux or macOS, run the example chmod command to set the permissions for your private key.
+
+![14](https://github.com/user-attachments/assets/9742133b-042f-4d5f-abc9-8a29c52ca134)
+
 6. Copy the example SSH command. The following is an example, where `key-pair-name.pem` is the name of your private key file, `ec2-user` is the username associated with the image, and the string after the @ symbol is the public DNS name of the instance.
 
 ```bash
 ssh -i key-pair-name.pem ec2-user@YOUR-PUBLIC-DNS-NAME
 ```
+
+7. In a terminal window on your computer, run the ssh command that you saved in the previous step. If the private key file is not in the current directory, in my case it's in the Download folder, you must specify the fully-qualified path to the key file in this command:
+
+* `cd Downloads`
+* Run `chmod 400 "EC2ConnectKey.pem"`
+* Run `ssh -i key-pair-name.pem ec2-user@YOUR-PUBLIC-DNS-NAME`
+* To verify that the fingerprint in the security alert matches the instance fingerprint contained in the console output when you first start an instance, enter `yes`
+
+![15](https://github.com/user-attachments/assets/53862ab3-f9e6-42c4-8dd0-4c2a4ce45ac4)
+
+
+
+
+
+
 
