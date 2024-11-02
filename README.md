@@ -75,4 +75,6 @@ To launch an instance:
 
 ![3](https://github.com/user-attachments/assets/0af5a012-104f-4edd-984e-7837a2ab4cf3)
 
-
+4. Under Application and OS Images (Amazon Machine Image), do the following:
+   a. Choose Quick Start, and then choose the operating system (OS) for your instance. For your first Linux instance, we recommend that you choose Amazon Linux.
+   b. From Amazon Machine Image (AMI), select an AMI that is marked Free Tier eligible.
