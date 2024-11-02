@@ -78,3 +78,17 @@ To launch an instance:
 4. Under Application and OS Images (Amazon Machine Image), do the following:
 <br> a. Choose Quick Start, and then choose the operating system (OS) for your instance. For your first Linux instance, we recommend that you choose Amazon Linux.
 <br> b. From Amazon Machine Image (AMI), select an AMI that is marked Free Tier eligible.
+
+![4](https://github.com/user-attachments/assets/2fe9f406-e821-4185-bda7-3e2db1b0759c)
+
+5. Under Instance type, for Instance type, choose t2.micro, which is eligible for the Free Tier. In Regions where t2.micro is not available, t3.micro is eligible for the Free Tier.
+
+![5](https://github.com/user-attachments/assets/7127433f-46c6-4def-9a29-f8cc8578b2c1)
+
+6. Under Key pair (login), for Key pair name, choose an existing key pair or choose Create new key pair to create your first key pair.
+
+![6](https://github.com/user-attachments/assets/870eb2ed-c072-499e-a8de-4a9ab1494415)
+
+⚠️ Warning: If you choose Proceed without a key pair (Not recommended), you won't be able to connect to your instance using the methods described in this tutorial.
+
+
