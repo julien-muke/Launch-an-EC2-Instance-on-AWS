@@ -117,8 +117,6 @@ To launch an instance:
 
 ## Step 2: Connect to your instance
 
-The procedure that you use depends on the operating system of the instance. If you can't connect to your instance, see [Troubleshoot issues connecting to your Amazon EC2 Linux instance](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/TroubleshootingInstancesConnecting.html) for assistance.
-
 ## Connect using the Amazon EC2 console
 
 You can connect to an instance using EC2 Instance Connect through the Amazon EC2 console. EC2 Instance Connect handles the permissions.
@@ -126,7 +124,7 @@ You can connect to an instance using EC2 Instance Connect through the Amazon EC2
 **Requirement:** To connect using the Amazon EC2 console, the instance must have a public IPv4 or public IPv6 address. If the instance has only a private IPv4 address, you can connect using the [ec2-instance-connect AWS CLI commands](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-instance-connect-methods.html#connect-linux-inst-eic-cli-ssh).
 
 
-To connect to your instance using the Amazon EC2 console:
+**To connect to your instance using the Amazon EC2 console:**
 
 1. Open the Amazon EC2 console at https://console.aws.amazon.com/ec2/.
 2. In the navigation pane, choose Instances.
@@ -143,7 +141,7 @@ To connect to your instance using the Amazon EC2 console:
 
 8. Choose Connect to open a terminal window.
 
-Now, you have successfully connected EC2 instance using the Amazon EC2 console.
+Now, you have successfully connected your EC2 instance using the Amazon EC2 console.
 
 ![13](https://github.com/user-attachments/assets/d04a67b7-67fe-4b4a-b64c-56285aa472f9)
 
@@ -168,7 +166,7 @@ To connect to your instance using your own key and any SSH client:
 ssh -i key-pair-name.pem ec2-user@YOUR-PUBLIC-DNS-NAME
 ```
 
-7. In a terminal window on your computer, run the ssh command that you saved in the previous step. If the private key file is not in the current directory, in my case it's in the Download folder, you must specify the fully-qualified path to the key file in this command:
+7. In a terminal window on your computer, run the ssh command. If the private key file is not in the current directory, in my case it's in the Download folder, you must specify the fully-qualified path to the key file in this command:
 
 * `cd Downloads`
 * Run `chmod 400 "EC2ConnectKey.pem"`
