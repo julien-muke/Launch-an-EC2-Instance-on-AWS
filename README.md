@@ -115,4 +115,25 @@ To launch an instance:
 
 ![Screenshot 2024-11-02 142606](https://github.com/user-attachments/assets/44733bb2-14b7-4ed2-ab65-223b39d970ca)
 
-11. 
+## Step 2: Connect to your instance
+
+The procedure that you use depends on the operating system of the instance. If you can't connect to your instance, see [Troubleshoot issues connecting to your Amazon EC2 Linux instance](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/TroubleshootingInstancesConnecting.html) for assistance.
+
+
+## Connect using Linux instances
+
+You can connect to your Linux instance using any SSH client. If you are running Windows on your computer, open a terminal and run the ssh command to verify that you have an SSH client installed. If the command is not found, [install OpenSSH for Windows](https://learn.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse?tabs=gui#install-openssh-for-windows).
+
+To connect to your instance using SSH:
+
+1. Open the Amazon EC2 console at https://console.aws.amazon.com/ec2/.
+2. In the navigation pane, choose Instances.
+3. Select the instance and then choose Connect.
+4. On the Connect to instance page, choose the SSH client tab.
+5. (Optional) If you created a key pair when you launched the instance and downloaded the private key (.pem file) to a computer running Linux or macOS, run the example chmod command to set the permissions for your private key.
+6. Copy the example SSH command. The following is an example, where `key-pair-name.pem` is the name of your private key file, `ec2-user` is the username associated with the image, and the string after the @ symbol is the public DNS name of the instance.
+
+```bash
+ssh -i key-pair-name.pem ec2-user@YOUR-PUBLIC-DNS-NAME
+```
+
