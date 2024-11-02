@@ -91,4 +91,20 @@ To launch an instance:
 
 ⚠️ Warning: If you choose Proceed without a key pair (Not recommended), you won't be able to connect to your instance using the methods described in this tutorial.
 
+7. Under Network settings, notice that we selected your default VPC, selected the option to use the default subnet in an Availability Zone that we choose for you, and configured a security group with a rule that allows connections to your instance from anywhere. For your first instance, we recommend that you use the default settings. Otherwise, you can update your network settings as follows:
 
+* (Optional) To use a specific default subnet, choose Edit and then choose a subnet.
+
+* (Optional) To use a different VPC, choose Edit and then choose an existing VPC. If the VPC isn't configured for public internet access, you won't be able to connect to your instance.
+
+* (Optional) To restrict inbound connection traffic to a specific network, choose Custom instead of Anywhere, and enter the CIDR block for your network.
+
+* (Optional) To use a different security group, choose Select existing security group and choose an existing security group. If the security group does not have a rule that allows connection traffic from your network, you won't be able to connect to your instance. For a Linux instance, you must allow SSH traffic. For a Windows instance, you must allow RDP traffic.
+
+![8](https://github.com/user-attachments/assets/84fbd825-bad8-4892-a4f2-c675e414c939)
+
+8. Under Configure storage, notice that we configured a root volume but no data volumes. This is sufficient for test purposes.
+
+![9](https://github.com/user-attachments/assets/ffd242ec-90d6-4b8a-a31b-fe9060e967e4)
+
+9. Review a summary of your instance configuration in the Summary panel, and when you're ready, choose Launch instance.
