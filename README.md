@@ -1,20 +1,14 @@
 <div align="center">
   <br />
     <a href="https://youtu.be/HcqDrF-k7bc?si=vc-ViXgOG4B7IOEl" target="_blank">
-      <img src="https://github.com/user-attachments/assets/e9d21376-3d67-42a9-935b-7153c736e8ca" alt="Project Banner">
+      <img src="https://github.com/user-attachments/assets/024577c7-30a4-46e3-bfc9-4932270a01ed" alt="Project Banner">
     </a>
   <br />
 
-  <div>
-    <img src="https://img.shields.io/badge/-React_JS-black?style=for-the-badge&logoColor=white&logo=react&color=61DAFB" alt="react.js" />
-    <img src="https://img.shields.io/badge/-Vite-black?style=for-the-badge&logoColor=white&logo=vite&color=646CFF" alt="vite" />
-    <img src="https://img.shields.io/badge/-Tailwind_CSS-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=06B6D4" alt="tailwindcss" />
-  </div>
-
-<h3 align="center">Modern UI/UX SaaS Website</h3>
+<h3 align="center">How to Launch an EC2 Instance on AWS: Complete Step-by-Step Guide for Beginners</h3>
 
    <div align="center">
-     Build this project step by step with our detailed tutorial on <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a> YouTube. Join the JSM family!
+     Build this hands-on demo step by step with my detailed tutorial on <a href="http://www.youtube.com/@julienmuke/videos" target="_blank"><b>Julien Muke</b></a> YouTube. Feel free to subscribe 🔔!
     </div>
 </div>
 
@@ -30,13 +24,13 @@
 
 ## 🚨 Tutorial
 
-This repository contains the code corresponding to an in-depth tutorial available on our YouTube
-channel, <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a>.
+This repository contains the steps corresponding to an in-depth tutorial available on our YouTube
+channel, <a href="http://www.youtube.com/@julienmuke/videos" target="_blank"><b>Julien Muke</b></a>.
 
-If you prefer visual learning, this is the perfect resource for you. Follow our tutorial to learn how to build projects
+If you prefer visual learning, this is the perfect resource for you. Follow my tutorial to learn how to build projects
 like these step-by-step in a beginner-friendly manner!
 
-<a href="https://youtu.be/ukiGFmZ32YA?feature=shared" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/1736fca5-a031-4854-8c09-bc110e3bc16d" /></a>
+<a href="https://youtu.be/HcqDrF-k7bc?si=vc-ViXgOG4B7IOEl?feature=shared" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/1736fca5-a031-4854-8c09-bc110e3bc16d" /></a>
 
 ## <a name="introduction">🤖 Introduction</a>
 
