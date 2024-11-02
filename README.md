@@ -108,3 +108,11 @@ To launch an instance:
 ![9](https://github.com/user-attachments/assets/ffd242ec-90d6-4b8a-a31b-fe9060e967e4)
 
 9. Review a summary of your instance configuration in the Summary panel, and when you're ready, choose Launch instance.
+
+![10](https://github.com/user-attachments/assets/7848c8d8-747f-4470-af98-9c57d22a2a86)
+
+10. Select the check box for the instance. The initial instance state is `pending`. After the instance starts, its state changes to `running`. Choose the Status and alarms tab. After your instance passes its status checks, it is ready to receive connection requests.
+
+![Screenshot 2024-11-02 142606](https://github.com/user-attachments/assets/44733bb2-14b7-4ed2-ab65-223b39d970ca)
+
+11. 
