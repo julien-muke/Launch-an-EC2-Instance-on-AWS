@@ -16,7 +16,7 @@
 
 1. 🤖 [Introduction](#introduction)
 2. ⚙️ [Tech Stack](#tech-stack)
-3. 🔋 [Features](#features)
+3. 🔋 [Steps](#features)
 4. 🤸 [Quick Start](#quick-start)
 5. 🕸️ [Snippets (Code to Copy)](#snippets)
 6. 🔗 [Assets](#links)
@@ -58,7 +58,7 @@ Follow these steps to set up your first EC2 instance on Amazon Web Services.
 Make sure you have the following:
 
 - [Create an AWS account](https://aws.amazon.com/)
-- [Node.js](https://nodejs.org/en)
+- Install OpenSSH on [Window](https://learn.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse?tabs=gui&pivots=windows-server-2025) or [Ubuntu](https://hostman.com/tutorials/how-to-install-and-configure-ssh-on-ubuntu-22-04/)
 - [npm](https://www.npmjs.com/) (Node Package Manager)
 
 **Cloning the Repository**
